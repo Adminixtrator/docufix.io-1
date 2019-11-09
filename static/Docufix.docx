@@ -1,0 +1,13 @@
+Note that this only provides a hint to the browser as to
+what file-types to display to the user, but this can be
+easily circumvented, so you should always validate the
+uploaded file on the server also.
+
+It should work in IE 18+, Chrome, Firefox, Safari 6+,
+Opera 15+, but support is very sketchy on mobiles (as of
+2815) and by some reports this may actually prevent some
+mobile browsers from uploading anything at all, so be
+sure to test your target platforms well.
+
+For detailed browser support, see
+http://caniuse.com/#feat=input-file-accept
